@@ -153,10 +153,32 @@ export default {
 
 @media screen and (max-width: 991px) {
   .component-quote-container {
-    margin: auto 10px;
+    margin: auto 0.6rem;
 
     .quote-text {
       font-size: 2.5rem;
+    }
+
+    .long-quote {
+      font-size: 1.75rem;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .component-quote-container {
+    margin: auto 0.8rem;
+
+    .quote-text {
+      font-size: 1.75rem;
+    }
+
+    .long-quote {
+      font-size: 1.5rem;
+    }
+
+    .fa-quote-left {
+      font-size: 2.25rem;
     }
   }
 }
